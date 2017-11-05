@@ -18,22 +18,22 @@ key = "enocean_usb_port", value = "THE_USB_PORT_NAME_YOU_FOUND"
 
 ### Usage
 
-At Gladys Startup, the EnOcean stick is in Learning mode during 60s
-You can learn your new device during this period.
+- At Gladys Startup, the EnOcean stick is put in Learning mode during 60s.
+- You can learn your new devices during this period.
 
-To add other EnOcean devices later without restating Gladys, go to "Modules" 
-and click on the "Configuration" button on the EnOcean module row. 
+- To add other EnOcean devices later (without restating Gladys), go to "Modules" 
+and click on the "Configuration" button on the EnOcean module row, it will put the stick in Learning mode during 60s.
 
-You can either learn new device by hand, through a script, type :
+- You can also learn new devices by hand, through a Gladys script :
 
-gladys.modules.enocean.learn({
-    id: "<your device id>",
-    eep: "<your device eep>",
-    manufacturer: "<manufacturer- not mandatory>",
-    desc: "<the name you want to give for your device>"
-})
+> gladys.modules.enocean.learn({
+>     id: "<your device id>",
+>     eep: "<your device eep>",
+>     manufacturer: "<manufacturer- not mandatory>",
+>     desc: "<the name you want to give for your device>"
+> })
 
-### Additionnal Informations
+### Additionnal Informations
 
 Each EnOcean state is mapped to int value in Gladys.
 
@@ -49,10 +49,10 @@ Each EnOcean state is mapped to int value in Gladys.
 - B1: 4
 
 
-Devices currently supported:
-- a5-07-01
-- a5-02-05
-- d5-00-01
-- f6-02-03
+- Devices currently supported:
+a5-07-01
+a5-02-05
+d5-00-01
+f6-02-03
 
 Others devices may works. Just tell me :)
