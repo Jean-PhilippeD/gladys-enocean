@@ -27,10 +27,10 @@ and click on the "Configuration" button on the EnOcean module row, it will put t
 - You can also learn new devices by hand, through a Gladys script :
 
 > gladys.modules.enocean.learn({
->     id: "<your device id>",
->     eep: "<your device eep>",
->     manufacturer: "<manufacturer- not mandatory>",
->     desc: "<the name you want to give for your device>"
+>     id: "your device id",
+>     eep: "your device eep",
+>     manufacturer: "manufacturer- not mandatory",
+>     desc: "the name you want to give for your device"
 > })
 
 ### Additionnal Informations
@@ -49,10 +49,10 @@ Each EnOcean state is mapped to int value in Gladys.
 - B1: 4
 
 
-- Devices currently supported:
-a5-07-01
-a5-02-05
-d5-00-01
-f6-02-03
+Devices currently supported:
+- a5-07-01
+- a5-02-05
+- d5-00-01
+- f6-02-03
 
 Others devices may works. Just tell me :)
