@@ -1,0 +1,11 @@
+{
+  "name": "enocean",
+  "version": "0.0.1",
+  "description": "This module enable enocean control in Gladys",
+  "dependencies": {
+    "node-enocean": "^3.3.0",
+    "node-enocean-button": "^3.0.0"
+  },
+  "author": "Jean-Philippe Danrée",
+  "license": "Creative Commons 3.0 France"
+}
