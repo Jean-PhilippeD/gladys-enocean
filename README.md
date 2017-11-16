@@ -40,9 +40,7 @@ $ gladys.modules.enocean.learn({
 - You can remove/forget a device by script:
 
  ```sh
-$ gladys.modules.enocean.forget({
-   id: "your device id",
-})
+$ gladys.modules.enocean.forget("your device id")
 ```
 
 #### How devices works
