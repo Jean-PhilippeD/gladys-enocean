@@ -115,4 +115,5 @@ nbproject
 .idea
 .node_history
 .editorconfig
-typings
+typingsA
+.*.swp
